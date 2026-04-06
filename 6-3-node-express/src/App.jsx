@@ -7,23 +7,7 @@ Back-end Lab — Express
 LAB SETUP INSTRUCTIONS
 ===================================================================
 
-1. Navigate to the project directory:
-   Open your terminal and run:
-      cd 6-3-node-express-main
 
-2. Install project dependencies:
-   Run either of these commands:
-      - npm i
-        OR
-      - npm install
-        OR
-      - npm install express cors morgan
-
-   Note:
-   - If express and cors are not installed, install them manually:
-      npm install express cors
-   - To add request logging in this lab, also install morgan:
-      npm install morgan
 
 3. Start the front server server from 6-3-node-express-main\6-3-node-express path:
    Run:
