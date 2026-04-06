@@ -16,7 +16,9 @@ app.use(morgan("dev"));
 import { getRandomQuote } from "./quotes.js";
 
 // TODO 6.1: Create root route "/"
-
+app.get("/", (req, res) => {
+  res.send("Quote API is running");
+});
 
 // TODO 6.2: Create "/api/quote" route
 
