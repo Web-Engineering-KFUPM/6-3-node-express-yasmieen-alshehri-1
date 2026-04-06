@@ -27,3 +27,6 @@ app.get("/api/quote", (req, res) => {
 });
 
 // TODO 7: Start server using app.listen
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});
